@@ -1,0 +1,9 @@
+ 
+* {
+  margin: 0;
+ }
+ .corona_header{
+   display:flex;
+   justify-content: space-between;
+   margin :20px;
+ }

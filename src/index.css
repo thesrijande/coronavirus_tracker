@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.aaste
+{
+  color: #FF6347;
+  padding: 5%;
+}
+.aaste_a
+{
+  color: #FF6347;
+  padding-right: 30%;
+}
+.right
+{
+  border-style: solid;
+  background-color: rgb(238, 156, 79);
+  border-image-source: url(./corona.jpg);
+  border-width: thick;
+}
+body
+{
+  color:orange;
+  background-image: url(./corona.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.corona_dropdown
+{
+  background-color: hotpink;
+  box-shadow: 0 0 3px 2px #fff, 0 0 7px #fff, 0 0 14px #fff, 0 0 20px #FF6347, 0 0 50px #FF6347, 0 0 60px #FF6347, 0 0 150px 30px #FF6347, inset 0 0 3px 1px #fff, inset 0 0 5px 3px #fff, inset 0 0 20px #FF6347, inset 0 0 50px #FF6347, inset 0 0 80px #FF6347;
+}
+.corona_header
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.cards
+{
+  color: #BDB76B;
+  display: flex;
+  justify-content: space-between;
+}
+.left
+{
+  flex: 0.9;
+}
+
+@media(max-width: 990px)
+{
+  .app
+  {
+    flex-direction: column;
+  }
+}
+.creater
+{
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 25px;
+  font-size: .75rem;
+  color: #fff;
+}
+
